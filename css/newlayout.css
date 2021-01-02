@@ -1,0 +1,496 @@
+
+body {
+	width: 100%; 
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #3c78b5;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.oneColLiqCtrHdr #container {
+	width: 98%;  /* this will create a container 80% of the browser width */
+	background:white;
+	padding: 0px 0px 0px 0px;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	
+}
+.oneColLiqCtrHdr #header {
+	width: 100%
+	background: yellow; 
+	color:#FFFFFF;
+	padding: 0px 0px 0px 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	display:inline;
+}
+.oneColLiqCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	background: #3c78b5; 
+	color:#FFFFFF;
+}
+
+.oneColLiqCtrHdr #headertext {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 0 0 2px 100; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	background: white;
+	color:#3c78b5;
+	font-weight:bold
+	text-align: right;
+	top:auto;
+	text-valign: top;
+	display:inline;
+	width:350px;
+}
+
+.oneColLiqCtrHdr #headerCenterText {
+	padding: 0 0 2px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	background: white;
+	color:#3c78b5;
+	font-weight:bold
+	text-align: center;
+	text-valign: top;
+	width:400px;
+	display:inline;
+}
+
+
+
+.oneColLiqCtrHdr #header h2 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+		background: #3c78b5; 
+	color:#FFFFFF;
+}
+.oneColLiqCtrHdr #mainContent {
+	padding: 0 0px 0 0px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	margin: 0; 
+	background: white;
+}
+.oneColLiqCtrHdr #mainContent h3 {
+	padding: 5px 0 0 5px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+}
+.oneColLiqCtrHdr #mainContent h4, h5, h6 {
+	padding: 0 0px 0 10px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	margin: 0; 
+	background: white;
+}
+
+.oneColLiqCtrHdr #mainContent table {
+	padding: 10px 10px 10px 10px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+}
+
+
+.oneColLiqCtrHdr #footer { 
+	padding: 0 0px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+} 
+.oneColLiqCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 0px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+.oneColLiqCtrHdr #footer h4 {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	text-align:right;
+	font-size:10px;
+	display:inline;
+	width:500px;
+}
+.oneColLiqCtrHdr #footer #footerlinks {
+	display:inline;
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 0px 0 10px 10; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	font-size:10px;
+	text-align:left;
+	width:425px;
+}
+
+
+
+
+.text8pt	{
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 8pt;
+	color:#3c78b5;
+	}
+	
+#text8pt	{
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 8pt;
+	color:#3c78b5;
+	}
+	
+#text10pt	{
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 10pt;
+	color:#3c78b5;
+	}
+
+.text10pt	{
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 10pt;
+	color:#3c78b5;
+	}
+#text12pt	{
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12pt;
+	}
+
+.text12pt	{
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12pt;
+	}
+
+.errorText{
+	padding-left:0px;
+	color:#ff0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+.ejgErrorText {font-size: 11px;
+		 color:#FF0000;
+		 font-weight:bold;}
+.ejgErrorTextSmall {font-size: 9px;
+		 color:red;
+		 font-weight:bold;}
+
+.form_error {
+	background-color:#FF0000;
+	color:#FFFFFF;
+	}
+.form_errorbox {
+	font-family:Arial,Verdana;
+	font-size:12px;
+	color:#3d6a98;
+	border:#FF0000 1px solid;
+	padding:1px;
+	letter-spacing:0.02em;
+	}
+.form_textbox {
+	font-family:Arial,Verdana;
+	font-size:12px;
+	color:#3d6a98;
+	border:#6699cc 1px solid;
+	padding:1px;
+	letter-spacing:0.02em;
+	
+	}
+#subsequentheading {
+	color: black;; 
+	display:block-line;
+	font-weight: bold; 
+	font-style: italic;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 14pt;
+	padding-top: 2em; 
+}
+
+#bluetext {
+	color: blue; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+}
+#examobj li {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+}
+
+#examobj p {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 12pt;
+	font-weight: bold; 
+	padding-top: 1em; 
+}
+
+#coursedesc li.blue {
+	color: blue; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+}
+
+
+
+
+/* list page navigational tabs */
+#foldertab {
+padding: 3px 0px 3px 10px;
+margin-left: 0;
+border-bottom: 1px solid #3c78b5;
+font: bold 11px Verdana, sans-serif;
+}
+
+#foldertab li {
+list-style: none;
+margin: 0;
+display: inline;
+}
+
+#foldertab li a {
+padding: 3px 0.5em;
+margin-left: 3px;
+border: 1px solid #3c78b5;
+border-bottom: none;
+background: #3c78b5;
+text-decoration: none;
+}
+
+#foldertab li a:link { color: #ffffff; }
+#foldertab li a:visited { color: #ffffff; }
+
+#foldertab li a:hover {
+color: #ffffff;
+background: orange;
+border-color: orange;
+}
+
+#foldertab li a.current {
+background: white;
+border-bottom: 1px solid white;
+color: black;
+}
+
+#foldertab li a.current:link { color: black; }
+#foldertab li a.current:visited { color: black; }
+#foldertab li a.current:hover {
+background: white;
+border-bottom: 1px solid white;
+color: black;
+}
+
+.foldertab-box { border-left: 1px solid #3c78b5; border-right: 1px solid #3c78b5; border-bottom: 1px solid #3c78b5; padding: 8px }
+
+
+
+
+
+
+/* alphabet list */
+ul#squaretab {
+margin-left: 0;
+margin-top: 10; /* Added by Mala */
+margin-bottom: 0; /* Added by Mala */
+padding-left: 0;
+white-space: nowrap;
+font-style:italic;
+font: 12px Verdana, sans-serif;
+list-style:decimal;
+}
+
+#squaretab li {
+display: block;
+list-style:decimal;
+font-style:italic;
+padding-left:20px;
+}
+
+#squaretab a {
+padding: 2px 6px;
+border: 1px solid #3c78b5;
+}
+
+#squaretab a:link, #squaretab a:visited {
+color: #fff;
+background-color: #3c78b5;
+text-decoration: none;
+}
+
+#squaretab a:hover {
+color: #ffffff;
+background-color: #003366;
+border-color: #003366;
+text-decoration: none;
+}
+
+#squaretab li a#current {
+background: white;
+color: black;
+}
+
+
+
+
+
+
+div.sidebarBox{
+text-align:left;
+font-family: arial, helvetica, sans-serif; 
+font-size: 12pt;
+border: 1px solid #D0D0D0;
+
+border-top: 0px solid #D0D0D0;
+border-bottom: 0px solid #D0D0D0;
+
+
+padding:0px;
+width: 248px;
+padding-right:0px;
+
+
+}
+
+img.sidebarBoxTop{
+display:block;
+}
+
+img.sidebarBoxBottom{
+margin-top:0px;
+margin-bottom:18px;
+}
+
+div.sidebarBox p{
+margin:5px 5px 5px 20px;
+}
+
+div.sidebarBox h4{
+margin:5px 0px 5px 8px;
+font-size:125%;
+}
+
+div.sidebarBox blockquote{
+margin: 0px;
+width:220px;
+}
+div.sidebarBox ol{
+margin-top:0px;
+margin-bottom:1em;
+}
+div.sidebarBox ul{
+padding:0px;
+/* margin:0px 0px 1em 0px; */
+margin:0px 0px 0em 10px;    /* Mala-modified last value to 10px from 0px*/
+}
+div.sidebarBox ul li{
+/* margin:0px 5px .1em 20px; */
+margin:0px 5px .0em 20px;
+valign:top;
+padding:0px;
+/* color:#CCCCCC;*/
+color:green;
+}
+div.sidebarBox ul li:hover{
+color:#999999;
+}
+.sidebarBox h4.ad img{
+float:right;
+padding-right:8px;
+}
+/*Multi-Classed Sidebar Boxes*/
+div.sidebarBox.clear{
+border-color:#CCC;
+}
+div.sidebarBox.grey
+, div.sidebarBoxNarrow.grey{
+border-color:#CCC;
+background-color:#F3F3F3;
+}
+#divBackToTop{
+font-size: 90%;
+}
+#threeways li{
+color: #000000;
+}
+
+
+
+
+
+/* Pod Links */
+div.sidebarBox h4.ad a:visited, div.sidebarBox h4.ad a:link{
+text-decoration:none;
+color:#7C2001 !important;
+}
+div.sidebarBox h4.ad a:hover{
+text-decoration:underline !important;
+}
+.sidebarBox h4.ad img{
+float:right;
+padding-right:8px;
+}
+div.sidebarBox ul li a{
+display:inline;
+text-decoration: none;
+}
+div.sidebarBox ol li a {
+text-decoration: underline !important;
+}
+
+
+
+
+
+
+
+
+#headingdesc {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	width:95%;
+	padding-bottom: 10px; 
+	padding-top: 0px; 
+	padding-left: 1em; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+#coursedesc {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	padding-bottom: 1em; 
+	 text-align:left;
+	padding-left: 1.5em; /* using padding instead of margin will allow you to keep the element away from the edges of the div */ 
+}
+
+#obj {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	padding-bottom: 1em; 
+	 text-align:left;
+	padding-left: 0em; /* using padding instead of margin will allow you to keep the element away from the edges of the div */ 
+}
+#obj li.blue {
+	color: blue; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+}
+
+
+#desc {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	 text-align:left;
+	padding-left: 1.5em; /* using padding instead of margin will allow you to keep the element away from the edges of the div */ 
+}
+
+
+#formclass td {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	width:95%;
+	padding-left: 2.5em;
+}
+
+#tdclass {
+	color: #660000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	width:95%;
+	padding-left: 2.5em;
+}

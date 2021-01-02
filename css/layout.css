@@ -1,0 +1,685 @@
+pagebody {
+     display: inline-table;
+     width: 100%;
+     height: 100%;
+     border: 0;
+     cellspacing: 0;
+     cellpadding: 0;
+}
+
+pageheader       { display: table-row;
+	color: blue;
+	font-weight: bold; 
+	font-family:verdana, courier, monospace; 
+	font-size: 18pt
+}
+
+title { font-size: 2em; margin: .67em 0 }
+
+
+.details .actions {
+	border: 1px solid #cecece;
+	padding: 12px;
+	margin: 18px 0;
+	overflow: hidden;
+}
+
+.details .actions .crf-s {
+	float: left;
+	width: 85px;
+}
+
+.details .actions a {
+	float: right;
+	padding: 0 44px;
+	line-height: 40px;
+	height: 40px;
+}
+
+.details .actions label {
+	float: left;
+	text-transform: uppercase;
+	line-height: 38px;
+	padding: 0 11px 0 5px;
+	color: #656567;
+	font-family: "Novecentowide";
+	font-size: 12px;
+	font-weight: 500;
+}
+
+
+<!-- navigation menu-->
+
+#navmenu table {
+	color: #000000;
+	font-weight: bold; 
+	font-family:verdana, courier, monospace; 
+	font-size: 08pt
+}
+
+#navmenu td {
+	background: white;
+	bgcolor: #ffffff; 
+	color: black; 
+	font-weight: bold; 
+	font-family:verdana, courier, monospace; 
+	height:25; 
+	font-size: 08pt; 
+}
+
+#navmenu a {
+	background: white;
+	text-decoration: none; 
+	border-color: black; 
+	color: #cc0033; 
+	font-weight: bold; 
+	font-family:verdana, courier, monospace; 
+	font-size: 08pt;
+}
+
+#navmenu a:visited { 
+	background: white;
+	border-color: blue; 
+	color: #cc0033; 
+	font-weight: bold; 
+	font-family:verdana, courier, monospace; 
+	font-size: 08pt;
+} 
+
+#navmenu a:hover { 
+	border-color: black; 
+	color: orange; 
+	font-weight: bold; 
+	font-family:verdana, courier, monospace; 
+	font-size: 08pt;
+}
+
+#navmenu td.currentmenu {
+	background: white; 
+	bgcolor: #3366ff;
+	color: black;
+	foreground: orange;
+	font-weight: bold; 
+	font-family:verdana, courier, monospace; 
+	height:25; 
+	font-size: 08pt
+}
+
+#navmenu td.currentmenu a:visited {
+	background: white; 
+	bgcolor: #3366ff;
+	color: black;
+	font-weight: bold; 
+	font-family:verdana, courier, monospace; 
+	height:25; 
+	font-size: 08pt
+}
+
+#navmenu td.currentmenu a {
+	background: white; 
+	bgcolor: #3366ff;
+	color: black;
+	font-weight: bold; 
+	font-family:verdana, courier, monospace; 
+	height:25; 
+	font-size: 08pt
+}
+
+#navmenu td.currentmenu a:hover {
+	background: white; 
+	bgcolor: #3366ff;
+	color: #cc0033;
+	font-weight: bold; 
+	font-family:verdana, courier, monospace; 
+	height:25; 
+	font-size: 08pt
+}
+
+
+
+<!-- general formatting-->
+
+body {background:images/ms.gif; color: #333333; font-family: arial, helvetica, sans-serif; font-size: 9pt}
+p {color: #333333; font-family: arial, helvetica, sans-serif; font-size: 9pt}
+td, th {color: #333333; font-family: arial, helvetica, sans-serif; font-size: 9pt}
+tr {color: #333333; font-family: arial, helvetica, sans-serif; font-size: 9pt}
+table {font-family: arial, helvetica, sans-serif; font-size: 9pt}
+
+
+<!-- general hyperlinks-->
+a{ 
+	text-decoration: none; 
+	color: black; 
+	font-weight: bold; 
+	font-family:arial, helvetica, sans-serif; 
+	font-size: 10pt;
+}
+
+a:visited { 
+	text-decoration: none; 
+	color: blue; 
+	font-weight: normal; 
+	font-family:arial, helvetica, sans-serif; 
+	font-size: 10pt;
+} 
+
+a:hover { 
+	text-decoration: none; 
+	color: orange; 
+	font-family:arial, helvetica, sans-serif; 
+}
+
+
+
+
+<!-- hyperlinks in small font -->
+#smalllink a{ 
+	color: black; 
+	font-family:arial, helvetica, sans-serif; 
+}
+
+#smalllink a:visited { 
+	text-decoration: none; 
+	color: blue; 
+	font-weight: normal; 
+	font-family:arial, helvetica, sans-serif; 
+} 
+
+#smalllink a:hover { 
+	text-decoration: none; 
+	color: orange; 
+	font-family:arial, helvetica, sans-serif; 
+}
+
+
+<!-- A few other classes -->
+
+
+#courseheading {
+	color: #000000; 
+	display:block-line;
+	font-weight: bold; 
+	font-style: italic;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 14pt;
+}
+
+#text {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 9pt;
+}
+
+#javacode {
+	color: #000000; 
+	background:#CCCCCC;
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 9pt;
+}
+
+#bluetext {
+	color: blue; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+}
+
+#redtext {
+	color: red; 
+	display:inline;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+}
+
+#italictext {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	font-style: italic;
+}
+
+#italicsmalltext {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 09pt;
+	padding-top: 3em; 
+	font-style: italic;
+}
+
+#coursetitle {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 12pt;
+	font-weight: bold; 
+	padding-top: 1em; 
+}
+
+#coursedesc {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 9pt;
+	padding-top: 1em; 
+	 text-align:justify;
+}
+
+#coursename {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 12pt;
+	padding-top: 1em; 
+}
+
+#coursename a {
+	color: blue; 
+	text-decoration: none;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	font-weight: bold; 
+}
+
+#coursename a:visited {
+	color: blue; 
+	text-decoration: none;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	font-weight: bold; 
+}
+
+#coursename a:hover {
+	color: green; 
+	text-decoration: none;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	font-weight: bold; 
+}
+
+
+#coursecategory {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 12pt;
+	font-weight: bold; 
+	padding-top: 1em; 
+}
+
+table.courses {
+	border: 1;
+	cellspacing: 2;
+	cellpadding: 5;
+}
+
+td.courses {
+	color: #000000; 
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 12pt;
+	padding-left: 1em; 
+	padding-right: 1em; 
+
+}
+
+
+br.headdisclaimer {
+	color: green; 
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 08pt;
+	padding-left: 1em; 
+	padding-right: 0em; 
+	padding-top: 0em; 
+	display:block;
+}
+
+p.disclaimer {
+	color: black; 
+	display:inline;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 08pt;
+	padding-left: 1em; 
+	padding-right: 1em; 
+	padding-top: 0em; 
+}
+
+br.disclaimer {
+	color: black; 
+	display:inline;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 08pt;
+	padding-left: 1em; 
+	padding-right: 1em; 
+	padding-top: 0em; 
+}
+
+a.disclaimer {
+	color: black; 
+	display:inline;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 08pt;
+	padding-left: 1em; 
+	padding-right: 1em; 
+	padding-top: 0em; 
+}
+
+a.disclaimer:visited {
+	color: blue; 
+	display:inline;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 08pt;
+	padding-left: 1em; 
+	padding-right: 1em; 
+	padding-top: 0em; 
+}
+
+a.disclaimer:hover {
+	color: orange; 
+	display:inline;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 08pt;
+	padding-left: 1em; 
+	padding-right: 1em; 
+	padding-top: 0em; 
+}
+
+
+p.dotdisclaimer {
+	color: #000000; 
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 08pt;
+	padding-left: 1em; 
+	padding-right: 1em; 
+	padding-top: 5em; 
+}
+
+
+br.copyright {
+	color: green; 
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 08pt;
+	padding-left: 1em; 
+	padding-right: 1em; 
+
+}
+
+p.copyright {
+	color: green; 
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 08pt;
+	padding-left: 1em; 
+	padding-right: 1em; 
+
+}
+
+#copyright  {
+	color: black; 
+	display:inline;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 08pt;
+	padding-left: 1em; 
+	padding-right: 1em; 
+	padding-top: 0em; 
+}
+
+li.text {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+}
+
+
+#examobj li {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+}
+
+#examobj p {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 12pt;
+	font-weight: bold; 
+	padding-top: 1em; 
+}
+
+#examobj li.blue {
+	color: blue; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+}
+
+
+
+#betafree {
+	color: red; 
+	display:inline;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 14pt;
+	font-weight: bold; 
+}
+
+
+#beta {
+	color: red; 
+	display:inline;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	font-weight: normal; 
+}
+
+#betafree a {
+	text-decoration: none;
+	color: red; 
+	display:inline;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 12pt;
+	font-weight: bold; 
+}
+
+#comingsoon {
+	color: red; 
+	display:inline;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 8pt;
+	font-weight: normal; 
+}
+
+#headingblue {
+	color: blue; 
+	display:block-line;
+	font-weight: bold; 
+	font-style: italic;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 16pt;
+}
+
+#heading {
+	color: black; 
+	display:block-line;
+	font-weight: bold; 
+	font-style: italic;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 16pt;
+	padding-top: .5em; 
+}
+
+#subheading{
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 12pt;
+	font-weight: bold; 
+	padding-top: 1em; 
+}
+
+#subsequentheading {
+	color: black;; 
+	display:block-line;
+	font-weight: bold; 
+	font-style: italic;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 14pt;
+	padding-top: 2em; 
+}
+
+
+
+#headingdesc {
+	color: #000000; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	padding-top: 1em; 
+}
+
+#examobjtext {
+	color: green; 
+	display:block-line;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	padding-top: 1em; 
+	padding-bottom: 1em; 
+}
+
+#questionans {
+	color: #000000; 
+	display:block-line;
+	font-weight: bold; 
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 10pt;
+	padding-top: 1em; 
+}
+
+
+
+image .logo {border: none;
+	align: left;
+	height: 80;
+	width: 135;
+}
+
+
+
+.footertable, .footertable TD, .footertable TH, .footertable a, 
+{
+font-family:sans-serif;
+font-size:8pt;
+color:black;
+background-color:white;
+}
+
+.footertable a:visited
+{
+font-family:sans-serif;
+font-size:8pt;
+color:blue;
+background-color:white;
+}
+
+.footertable a:hover
+{
+font-family:sans-serif;
+font-size:8pt;
+color:orange;
+background-color:white;
+}
+
+
+
+/*
+ ****** FOR THE POP UP MENU ****** 
+*/
+
+
+/* menu */
+#mx {
+	font-size: .9em;
+	font-weight: bold;
+}
+#mx, #mx ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#mx ul {
+	font-weight: normal;
+}
+
+/* set border to a number to underline the menu item */
+#mx li {
+	border-bottom: 0px solid #333;
+	
+}
+#mx ul li {
+	border-bottom: none;
+}
+#mx a {
+	text-decoration: none;
+	display: block;
+	margin: 0;
+	padding: .0em;
+	// make the above to 0.2
+}
+
+/* menu parent */
+#mx li.m {
+	position: relative;
+	text-decoration: none;
+}
+
+/* submenu indicator */
+#mx li.m a {
+	text-decoration: none;
+	background: url(a.png) 90% 40% no-repeat;
+}
+#mx li.m a:hover {
+	text-decoration: none;
+	background: white url(a.png) 90% 40% no-repeat;
+}
+#mx li.m ul a, #mx li.m ul a:hover {
+	text-decoration: none;
+	background-image: none;
+}
+
+/* popup menus */
+#mx li.m ul {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 16em;
+	width: 14.4em;
+	border: 1px solid #333;
+	background: #FFF;
+}
+
+
+#mx li.m ul a{
+	background: #3366ff;
+	color:white;
+}
+
+#mx li.m ul a:hover{
+	background: #3366ff;
+	color:orange;
+}
+#mx li.m ul a:visited{
+	background: #3366ff;
+	color:white;
+}
+
+/* width of popup menu */
+#mx li.m ul a {
+	width: 12em;
+}
+
+
+
+
